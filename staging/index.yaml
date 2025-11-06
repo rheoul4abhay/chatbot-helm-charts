@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   chatbot:
   - apiVersion: v2
+    appVersion: v1.0.44-5c5d26fa
+    created: "2025-11-06T20:54:39.07889817Z"
+    description: A Chatbot with RAG functionality
+    digest: 9fbd5a9bffd834266d540ccbb7ea528ecc369bac58173d533b1cca54dd8d1361
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    name: chatbot
+    type: application
+    urls:
+    - https://rheoul4abhay.github.io/chatbot-helm-charts/staging/chatbot-v1.0.44.tgz
+    version: v1.0.44
+  - apiVersion: v2
     appVersion: v1.0.42-d1a6902d
-    created: "2025-11-06T20:46:04.642065915Z"
+    created: "2025-11-06T20:54:39.07864419Z"
     description: A Chatbot with RAG functionality
     digest: 8178210109600cb441a8b74c76bec2ba69e44f48f2af71b5ae59dd1e7aa57803
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -14,7 +25,7 @@ entries:
     version: v1.0.42
   - apiVersion: v2
     appVersion: v1.0.41-c62aa6fc
-    created: "2025-11-06T20:46:04.641842276Z"
+    created: "2025-11-06T20:54:39.07836041Z"
     description: A Chatbot with RAG functionality
     digest: e1c6cb4d9fa37795c093b851faa89a7a4bffb8186b7b68b81e4abf10a3c5a1b1
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -25,7 +36,7 @@ entries:
     version: v1.0.41
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-06T20:46:04.641584237Z"
+    created: "2025-11-06T20:54:39.07808194Z"
     description: A Chatbot with RAG functionality
     digest: 7830ee54a4dcece5e7399e94872ed2583f0d5d0090162bdda2c6c57d93ec790a
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -34,4 +45,4 @@ entries:
     urls:
     - https://rheoul4abhay.github.io/chatbot-helm-charts/staging/chatbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-06T20:46:04.64115058Z"
+generated: "2025-11-06T20:54:39.07762601Z"
