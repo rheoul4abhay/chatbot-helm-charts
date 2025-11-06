@@ -2,6 +2,6 @@ apiVersion: v2
 name: chatbot
 description: A Chatbot with RAG functionality
 type: application
-version: 0.1.0
-appVersion: "1.0.0"
+version: v1.0.29
+appVersion: "v1.0.29-5120fc65"
 icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
