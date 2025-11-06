@@ -4,8 +4,8 @@ metadata:
   name: chatbot-db-pvc
 spec:
   accessModes:
-  - ReadWriteOnce
+    - ReadWriteOnce
+  storageClassName: standard-rwo
   resources:
     requests:
       storage: {{ .Values.database.storage }}
-    storageClassName: standard-rwo
