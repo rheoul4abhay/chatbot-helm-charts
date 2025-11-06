@@ -1,0 +1,28 @@
+# Frontend LoadBalancer Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-frontend-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: chatbot-frontend
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+
+---
+# Backend LoadBalancer Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-backend-lb
+spec:
+  type: LoadBalancer
+  selector:
+    app: chatbot-backend
+  ports:
+  - port: 5000
+    targetPort: 5000
+    protocol: TCP

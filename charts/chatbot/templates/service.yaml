@@ -1,0 +1,40 @@
+# Frontend Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-frontend
+spec:
+  selector:
+    app: chatbot-frontend
+  ports:
+  - port: 80
+    targetPort: 80
+  type: ClusterIP
+
+---
+# Backend Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-backend
+spec:
+  selector:
+    app: chatbot-backend
+  ports:
+  - port: 5000
+    targetPort: 5000
+  type: ClusterIP
+
+---
+# Database Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-database
+spec:
+  selector:
+    app: chatbot-database
+  ports:
+  - port: 5432
+    targetPort: 5432
+  type: ClusterIP

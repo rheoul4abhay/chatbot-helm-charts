@@ -1,0 +1,20 @@
+environment: "staging"
+
+frontend:
+  image:
+    repository: "abhayshrivastava/chatbot-frontend"
+    tag: "latest"
+  replicas: 2
+
+backend:
+  image:
+    repository: "abhayshrivastava/chatbot-backend"
+    tag: "latest"
+  replicas: 2
+
+database:
+  image:
+    repository: "abhayshrivastava/chatbot-database"
+    tag: "latest"
+  replicas: 1
+  storage: "5Gi"

@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  chatbot:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-11-06T16:05:09.687314524Z"
+    description: A Chatbot with RAG functionality
+    digest: 1a8c7f780e6b13f5cfc8b45e1650889b4ddf2cd8dbfd371c9acadba052accfa7
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    name: chatbot
+    type: application
+    urls:
+    - https://rheoul4abhay.github.io/chatbot-helm-charts/production/chatbot-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-11-06T16:05:09.674122846Z"
