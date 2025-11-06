@@ -8,4 +8,4 @@ spec:
   storageClassName: standard-rwo
   resources:
     requests:
-      storage: {{ .Values.database.storage }}
+      storage: "{{ .Values.database.storage }}"
