@@ -5,6 +5,7 @@ metadata:
   name: chatbot-frontend
 spec:
   replicas: {{ .Values.frontend.replicas }}
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: chatbot-frontend
@@ -34,6 +35,7 @@ metadata:
   name: chatbot-backend
 spec:
   replicas: {{ .Values.backend.replicas }}
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: chatbot-backend
@@ -88,6 +90,7 @@ metadata:
   name: chatbot-database
 spec:
   replicas: {{ .Values.database.replicas }}
+  revisionHistoryLimit: 3
   selector:
     matchLabels:
       app: chatbot-database
@@ -121,7 +124,7 @@ spec:
               key: DATABASE_PASSWORD
         volumeMounts:
         - name: postgres-storage
-          mountPath: /var/lib/postgresql/data/
+          mountPath: /var/lib/postgresql/data
         resources:
           requests:
             cpu: 200m
