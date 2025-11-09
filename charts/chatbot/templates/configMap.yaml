@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: chatbot-config
 data:
-  DATABASE_NAME: "chatbot"
+  DATABASE_NAME: "chatbot_db"
   ENVIRONMENT: {{ .Values.environment }}
