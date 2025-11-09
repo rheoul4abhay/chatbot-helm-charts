@@ -26,3 +26,18 @@ spec:
   - port: 5000
     targetPort: 5000
     protocol: TCP
+
+---
+# Database Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatbot-database
+spec:
+  type: ClusterIP
+  selector:
+    app: chatbot-database
+  ports:
+  - port: 5432
+    targetPort: 5432
+    protocol: TCP
