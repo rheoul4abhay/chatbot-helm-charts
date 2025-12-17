@@ -2,8 +2,19 @@ apiVersion: v1
 entries:
   chatbot:
   - apiVersion: v2
+    appVersion: v1.0.64-f6ca413a
+    created: "2025-12-17T19:30:27.407497783Z"
+    description: A Chatbot with RAG functionality
+    digest: 7311fc55e45eb1b38af05043f7bc09c0dd27d312af7a1dfdfab5c267c8564029
+    icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
+    name: chatbot
+    type: application
+    urls:
+    - https://rheoul4abhay.github.io/chatbot-helm-charts/staging/chatbot-v1.0.64.tgz
+    version: v1.0.64
+  - apiVersion: v2
     appVersion: v1.0.63-e30a4990
-    created: "2025-12-17T18:56:35.995142553Z"
+    created: "2025-12-17T19:30:27.407213142Z"
     description: A Chatbot with RAG functionality
     digest: ea9480b58cf1d85b32848837799b156085187cbe7be71bfe56c15677e647d1d5
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -14,7 +25,7 @@ entries:
     version: v1.0.63
   - apiVersion: v2
     appVersion: v1.0.57-a93d2f07
-    created: "2025-12-17T18:56:35.994919063Z"
+    created: "2025-12-17T19:30:27.406946891Z"
     description: A Chatbot with RAG functionality
     digest: bbbc360e07b5e6e2b043a7daf782a798251e2ffe7f86fa2eb837239f067d0805
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -25,7 +36,7 @@ entries:
     version: v1.0.57
   - apiVersion: v2
     appVersion: v1.0.55-1074fe84
-    created: "2025-12-17T18:56:35.994642013Z"
+    created: "2025-12-17T19:30:27.40669188Z"
     description: A Chatbot with RAG functionality
     digest: d87cab58569e48e1315d2856b38d4b84bb9d8a12f59a5534619788f4a64ac27c
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -36,7 +47,7 @@ entries:
     version: v1.0.55
   - apiVersion: v2
     appVersion: v1.0.53-eca40d5e
-    created: "2025-12-17T18:56:35.993795434Z"
+    created: "2025-12-17T19:30:27.406356738Z"
     description: A Chatbot with RAG functionality
     digest: 027f78869e75cae1f8669a2d2702bf6448ae07aea66e54fea32110e3910d04b9
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -47,7 +58,7 @@ entries:
     version: v1.0.53
   - apiVersion: v2
     appVersion: v1.0.52-e0c5ce9f
-    created: "2025-12-17T18:56:35.993315674Z"
+    created: "2025-12-17T19:30:27.406104637Z"
     description: A Chatbot with RAG functionality
     digest: 7f0e407f9e6d36ead64f4b332925dbc7634ef1f6b40359f1339356f9caa867af
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -58,7 +69,7 @@ entries:
     version: v1.0.52
   - apiVersion: v2
     appVersion: v1.0.51-b708e9c5
-    created: "2025-12-17T18:56:35.992776504Z"
+    created: "2025-12-17T19:30:27.405850726Z"
     description: A Chatbot with RAG functionality
     digest: 8b4d68555215333d02ce0ca0964b38ab977a4bb54c0303107467d881db5e64af
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -69,7 +80,7 @@ entries:
     version: v1.0.51
   - apiVersion: v2
     appVersion: v1.0.50-77f468e4
-    created: "2025-12-17T18:56:35.991870405Z"
+    created: "2025-12-17T19:30:27.405611535Z"
     description: A Chatbot with RAG functionality
     digest: 4dbf7326bc4347be03bc3599f26839eb693e09775158c9d523b9db00e418ff5f
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -80,7 +91,7 @@ entries:
     version: v1.0.50
   - apiVersion: v2
     appVersion: v1.0.49-4aa3ce9b
-    created: "2025-12-17T18:56:35.991642065Z"
+    created: "2025-12-17T19:30:27.405364364Z"
     description: A Chatbot with RAG functionality
     digest: 33f46a0b9713859eca7c90b9e33919ac6c9b85132ab5a88065026a4143eeb22d
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -91,7 +102,7 @@ entries:
     version: v1.0.49
   - apiVersion: v2
     appVersion: v1.0.48-cd4e46d1
-    created: "2025-12-17T18:56:35.991387695Z"
+    created: "2025-12-17T19:30:27.405132063Z"
     description: A Chatbot with RAG functionality
     digest: 83c12426cc1b1113c9eaa9ddba81e1f618cc94792ca4837ba4451e10134baf9e
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -102,7 +113,7 @@ entries:
     version: v1.0.48
   - apiVersion: v2
     appVersion: v1.0.47-ec119507
-    created: "2025-12-17T18:56:35.991123365Z"
+    created: "2025-12-17T19:30:27.404865301Z"
     description: A Chatbot with RAG functionality
     digest: ab5608aaa23a144b5b5dfd7315bcfcac3f404ed34041d0bc31fe2dbcbb17af8c
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -113,7 +124,7 @@ entries:
     version: v1.0.47
   - apiVersion: v2
     appVersion: v1.0.45-cd4e46d1
-    created: "2025-12-17T18:56:35.990892455Z"
+    created: "2025-12-17T19:30:27.4046015Z"
     description: A Chatbot with RAG functionality
     digest: 180537499c805b8766e4a822f6c29d267e5d5579231304b62f58091dd46dfeaa
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -124,7 +135,7 @@ entries:
     version: v1.0.45
   - apiVersion: v2
     appVersion: v1.0.44-5c5d26fa
-    created: "2025-12-17T18:56:35.990634885Z"
+    created: "2025-12-17T19:30:27.404342249Z"
     description: A Chatbot with RAG functionality
     digest: 9fbd5a9bffd834266d540ccbb7ea528ecc369bac58173d533b1cca54dd8d1361
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -135,7 +146,7 @@ entries:
     version: v1.0.44
   - apiVersion: v2
     appVersion: v1.0.42-d1a6902d
-    created: "2025-12-17T18:56:35.990397006Z"
+    created: "2025-12-17T19:30:27.404097218Z"
     description: A Chatbot with RAG functionality
     digest: 8178210109600cb441a8b74c76bec2ba69e44f48f2af71b5ae59dd1e7aa57803
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -146,7 +157,7 @@ entries:
     version: v1.0.42
   - apiVersion: v2
     appVersion: v1.0.41-c62aa6fc
-    created: "2025-12-17T18:56:35.990146296Z"
+    created: "2025-12-17T19:30:27.403834637Z"
     description: A Chatbot with RAG functionality
     digest: e1c6cb4d9fa37795c093b851faa89a7a4bffb8186b7b68b81e4abf10a3c5a1b1
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -157,7 +168,7 @@ entries:
     version: v1.0.41
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-17T18:56:35.989892516Z"
+    created: "2025-12-17T19:30:27.403556395Z"
     description: A Chatbot with RAG functionality
     digest: 7830ee54a4dcece5e7399e94872ed2583f0d5d0090162bdda2c6c57d93ec790a
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png
@@ -166,4 +177,4 @@ entries:
     urls:
     - https://rheoul4abhay.github.io/chatbot-helm-charts/staging/chatbot-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-17T18:56:35.989405016Z"
+generated: "2025-12-17T19:30:27.403087643Z"
